@@ -16,6 +16,7 @@ public class Aritmetica extends Progresion {
         this.incremento = in;
     }
 
+    @Override
     protected void avanzar() {
         this.valor += this.incremento;
     }

@@ -12,6 +12,7 @@ public class Fibonacci extends Progresion {
         this.prev = valorPrev;
     }
 
+    @Override
     protected void avanzar() {
         long next = this.valor + this.prev;
         this.prev = this.valor;

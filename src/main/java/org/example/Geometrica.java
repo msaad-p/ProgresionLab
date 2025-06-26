@@ -16,6 +16,7 @@ public class Geometrica extends Progresion {
         this.base = b;
     }
 
+    @Override
     protected void avanzar() {
         this.valor *= this.base;
     }

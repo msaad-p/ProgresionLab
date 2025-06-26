@@ -1,6 +1,6 @@
 package org.example;
 
-public class Progresion {
+public abstract class Progresion {
     protected long valor;
 
     public Progresion() {
@@ -17,9 +17,7 @@ public class Progresion {
         return temp;
     }
 
-    protected void avanzar() {
-        this.valor++;
-    }
+    protected abstract void avanzar();
 
     public void imprimirP(int n) {
         for (int i = 1; i <= n; i++) {
